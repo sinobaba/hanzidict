@@ -1,0 +1,43 @@
+MIT License
+
+Copyright (c) 2026 HanziDict (https://hanzidict.org)
+
+SCOPE NOTICE
+------------
+
+This license covers the DATASET in this repository — the CSV files under
+`data/` and the documentation describing them.
+
+It does NOT cover the source code of the website hanzidict.org itself, which
+is proprietary and all rights reserved. Nothing in this repository grants any
+right to the site's source code, design, or infrastructure.
+
+The character layer (`data/characters.csv`, `data/char_aliases.csv`,
+`data/char_pronunciations.csv`, `data/char_properties.csv`) consists of factual
+data derived from official Chinese national standards, which are excluded from
+copyright protection under Article 5 of the Copyright Law of the People's
+Republic of China. It is provided under this license for convenience only and
+may in fact be used without any conditions.
+
+Definition rows in `data/glosses.csv` additionally carry their own per-row
+provenance: rows whose `source` is `zdic(汉典)` are CC0 1.0 (public domain)
+from zdic.net. CC0 material imposes no conditions; it is distributed here
+alongside MIT-licensed material for convenience.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this dataset and associated documentation files (the "Dataset"), to deal
+in the Dataset without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Dataset, and to permit persons to whom the Dataset is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Dataset.
+
+THE DATASET IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE DATASET OR THE USE OR OTHER DEALINGS IN THE
+DATASET.
